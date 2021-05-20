@@ -1,5 +1,7 @@
 # CarND-Path-Planning-Project
-Self-Driving Car Engineer Nanodegree Program
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
+![Lanes Image](./pathplanning.png)
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).  
@@ -23,6 +25,14 @@ The highway's waypoints loop around so the frenet s value, distance along the ro
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./path_planning`.
+
+## Start the simulator:
+open another terminal
+```
+$ cd term3_sim_linux
+$ chmod +x term3_sim.x86_64
+$ ./term3_sim.x86_64 term3_sim_Data/
+```
 
 Here is the data provided from the Simulator to the C++ Program
 
@@ -91,6 +101,8 @@ A really helpful resource for doing this project and creating smooth trajectorie
     cd uWebSockets
     git checkout e94b6e1
     ```
+    Some function signatures have changed in v0.14.x. See [this PR](https://github.com/udacity/CarND-MPC-Project/pull/3) for more details.
+
 
 ## Editor Settings
 
